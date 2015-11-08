@@ -41,7 +41,7 @@ var App = React.createClass({
 
 Then the above component can be integrated in the web application:
 
-```
+```javascript
 React.render(
     <App locales={['en-US']} />,
     document.getElementById('example')
@@ -50,7 +50,7 @@ React.render(
 
 Or the French version:
 
-```
+```javascript
 React.render(
     <App locales={['fr-FR']} />,
     document.getElementById('example')
